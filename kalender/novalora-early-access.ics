@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//High Performance Mail//Kalender//NL
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:novalora-early-access-2026@high-performance-mail.com
+DTSTAMP:20261103T100805Z
+CREATED:20261103T100805Z
+LAST-MODIFIED:20261103T100805Z
+SEQUENCE:0
+DTSTART:20261123T080000Z
+DTEND:20261123T083000Z
+SUMMARY:Novalora Early Access: 30% korting op alles
+DESCRIPTION:Vanaf 09:00 shop je als eerste met 30% korting op alles.\n\nPla
+ ats je vanaf 09:00 een van de eerste 100 bestellingen? Dan ontvang je een 
+ gratis Novalora Lash Serum.\n\nShop hier: https://novalora.nl/collections/
+ producten
+URL:https://novalora.nl/collections/producten
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+BEGIN:VALARM
+UID:novalora-early-access-2026-10m@high-performance-mail.com
+X-WR-ALARMUID:novalora-early-access-2026-10m@high-performance-mail.com
+ACTION:DISPLAY
+DESCRIPTION:Novalora Early Access start over 10 minuten
+TRIGGER:-PT10M
+END:VALARM
+BEGIN:VALARM
+UID:novalora-early-access-2026-5m@high-performance-mail.com
+X-WR-ALARMUID:novalora-early-access-2026-5m@high-performance-mail.com
+ACTION:DISPLAY
+DESCRIPTION:Novalora Early Access start over 5 minuten
+TRIGGER:-PT5M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
